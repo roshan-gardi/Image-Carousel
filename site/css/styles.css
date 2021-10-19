@@ -1,0 +1,129 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: firebrick;
+  color:#f3e6ff
+
+}
+
+header{
+
+  height: 10%;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px #5c00b3;
+  font-size: 1.6em;
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid black;
+}
+.container-fluid {
+  width: 100%;
+  height: 90%;
+}
+.row{
+  height: 100%;
+}
+.col-3{
+  position: relative;
+
+  border-right: 1px solid black;
+}
+.col-9{
+  padding:0px;
+  position: relative;
+  border-right: 1px solid black;
+}
+
+#Categories{
+
+  font-weight: bold;
+  padding:5px 5px 10px 10px;
+}
+.dropdown{
+
+  padding-left:10px;
+}
+#dropdownMenuButton1,.dropdown-menu{
+
+  background-color: #d9b3ff;
+}
+#dropdownMenuButton1:hover,#dropdownMenuButton1:focus{
+  background-color: #b366ff;
+}
+#name{
+  position: absolute;
+  bottom: 350px;
+  font-weight: bold;
+  padding:5px 5px 10px 10px;
+}
+#files{
+  position: absolute;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px 0px 20px 20px;
+  height: 60%;
+  width:80%;
+  bottom: 5px;
+  overflow-y: scroll;
+}
+#files div{
+  border: 1px solid black;
+  height:150px;
+  width: 150px;
+  margin: 20px 5px 30px 30px;
+}
+#files img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#main-section{
+  height: 75%;
+}
+#image-section {
+
+  margin: 50px 100px 50px 100px;
+  height: 80%;
+  width: 80%;
+  border:1px solid black;
+}
+
+.carousel-inner,.carousel-item,img{
+
+  max-height: 335px;
+  max-width: 90%
+}
+.image-section{
+  position: relative;
+}
+.carousel-inner{
+  left:110px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: firebrick;
+}
+.carousel .carousel-indicators .active {
+  background-color: firebrick;
+}
+#below-section{
+  position: absolute;
+  bottom: 0px;
+  height: 25%;
+  width: 100%;
+  border-top: 1px solid black;
+  overflow-x: scroll;
+}
+#inner-below{
+  white-space: nowrap;
+}
+#inner-below img{
+  max-width: 100%;
+  max-height:  100%;
+}
+.inner-boxes{
+  border: 1px solid black;
+  display: inline-block;
+  margin:20px 20px 0px 20px;
+  height: 80px;
+  width: 80px;
+}
